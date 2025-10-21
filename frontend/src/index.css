@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+	--background: 0 0% 100%; /* pure white */
+	--foreground: 222 47% 11%; /* dark gray for text */
+
+	--card: 0 0% 100%;
+	--card-foreground: 222 47% 11%;
+
+	--popover: 0 0% 100%;
+	--popover-foreground: 222 47% 11%;
+
+	--primary: 221 83% 53%; /* blue-600 */
+	--primary-foreground: 0 0% 100%;
+
+	--secondary: 210 40% 96%;
+	--secondary-foreground: 222 47% 11%;
+
+	--muted: 210 16% 93%;
+	--muted-foreground: 222 20% 50%;
+
+	--accent: 142 76% 36%; /* green-600 */
+	--accent-foreground: 0 0% 100%;
+
+	--destructive: 0 84% 60%; /* red-600 */
+	--destructive-foreground: 0 0% 100%;
+
+	--border: 214 32% 91%;
+	--input: 214 32% 91%;
+	--ring: 221 83% 53%;
+
+	--success: 142 76% 36%;
+	--success-foreground: 0 0% 100%;
+
+	--warning: 38 92% 50%;
+	--warning-foreground: 0 0% 100%;
+
+	--info: 199 89% 48%;
+	--info-foreground: 0 0% 100%;
+
+	--radius: 0.5rem;
+
+	--sidebar-background: 210 40% 96%;
+	--sidebar-foreground: 222 47% 11%;
+	--sidebar-primary: 221 83% 53%;
+	--sidebar-primary-foreground: 0 0% 100%;
+	--sidebar-accent: 210 16% 93%;
+	--sidebar-accent-foreground: 222 47% 11%;
+	--sidebar-border: 214 32% 91%;
+	--sidebar-ring: 221 83% 53%;
+}
+
+body {
+	background: #fff;
+	color: #222;
+}
